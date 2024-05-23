@@ -1,4 +1,4 @@
 -- deleting database
 -- from server
 
-DELETE DATABSE IF NOT EXISTS hbtn_0c_0
+DELETE DATABSE IF EXISTS hbtn_0c_0
