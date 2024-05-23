@@ -1,5 +1,5 @@
 -- lists all tables
 -- of database from mysql server
 
-USE [mysql];
+USE mysql;
 SHOW TABLES;
