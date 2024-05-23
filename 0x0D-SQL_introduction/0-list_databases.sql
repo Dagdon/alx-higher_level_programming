@@ -1,5 +1,5 @@
 -- to lists all databses
 -- from server
 
-SELECT * databases
+SELECT databases
 FROM mysql-server
