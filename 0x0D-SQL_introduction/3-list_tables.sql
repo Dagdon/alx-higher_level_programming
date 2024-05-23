@@ -2,4 +2,4 @@
 -- of database from mysql server
 
 USE [mysql];
-SHOW * TABLE;
+SHOW TABLES;
