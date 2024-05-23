@@ -1,4 +1,4 @@
 -- to lists all databses
--- from server
+-- from my server
 
-SELECT DATABASE FROM mysql-server
+SHOW DATABASES
