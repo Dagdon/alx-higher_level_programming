@@ -1,5 +1,4 @@
 -- to lists all databses
 -- from server
 
-SELECT databases
-FROM mysql-server
+SELECT * FROM sys.databases WHERE database_id > 4
