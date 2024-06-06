@@ -2,10 +2,9 @@
 
 /**
  * check_circle - checks for a circle
- * @list: Linked list
+ * @list: linked list
  * Return: 0 or 1
  */
-
 int check_cycle(listint_t *list)
 {
 	listint_t *fast, *slow;
