@@ -1,4 +1,4 @@
-#include <lists.h>
+#include "lists.h"
 
 /**
  * check_circle - checks for a circle
@@ -8,14 +8,14 @@
 
 int check_cycle(listint_t *list)
 {
-	listint_t fast, slow;
+	listint_t *fast, *slow;
 
 	if (!list || !list->next)
 		return (0);
 	fast = list;
 	slow = list;
 
-	while (slow != NULL && fast != NULL && fast->next 1= NULL)
+	while (slow != NULL && fast != NULL && fast->next != NULL)
 	{
 		slow = slow->next;
 		fast = fast->next->next;
