@@ -7,8 +7,8 @@ def roman_to_int(roman_string):
     for i, char in enumerate(roman_string):
         temp = roman[char]
         try:
-             if temp < roman[roman_string[i + 1]]:
-                 temp = temp * -1
+            if temp < roman[roman_string[i + 1]]:
+                temp = temp * -1
         except IndexError:
             pass
         number = number + temp
