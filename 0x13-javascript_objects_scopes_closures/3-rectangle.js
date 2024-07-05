@@ -11,12 +11,8 @@ class Rectangle {
 
   print () {
     if (this.width && this.height) {
-      for (let i = 0; i < this.width; i++) {
-        let row = '';
         for (let j = 0; j < this.height; j++) {
-          row += 'X';
-        }
-        console.log(row);
+        console.log('X'.repeat(this.width));
       }
     }
   }
