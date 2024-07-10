@@ -2,5 +2,4 @@
 -- from a record on the table
 
 SELECT AVG(score) AS average
-FROM second_table:x
-;
+FROM second_table;
