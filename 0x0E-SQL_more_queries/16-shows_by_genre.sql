@@ -1,4 +1,4 @@
-== list all shows
+-- list all shows
 -- and all genres linked to the shows
 
 SELECT tv_shows.title, tv_genres.name
