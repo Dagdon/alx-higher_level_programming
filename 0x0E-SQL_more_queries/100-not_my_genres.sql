@@ -1,7 +1,7 @@
 -- list all tv shows that are not linked to a show
 -- in the database
 
-SELECT DISTINCT series_genres.name
+SELECT DISTINCT tv_genres.name
 FROM tv_genres
 WHERE tv_genres.id NOT IN
 	(SELECT tv_genres.id
